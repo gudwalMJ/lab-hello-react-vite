@@ -1,0 +1,65 @@
+body {
+  margin: 100vw;
+}
+
+.App {
+  text-align: center;
+  padding: 1vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.imageContainerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+.imageContainerMenu img {
+  width: 100px;
+}
+
+.imageContainerMenu .ironhack-logo {
+  align-self: flex-start;
+}
+
+.imageContainerMenu .menu-top {
+  align-self: flex-end;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  background-color: white;
+  color: darkslategray;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  pad: 10px 20px;
+}
+
+.App h1 {
+  font-size: 4.2em;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.reactJS {
+  display: block;
+}
+
+.App p {
+  font-size: 1.2em;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.p1 {
+  display: block;
+}
